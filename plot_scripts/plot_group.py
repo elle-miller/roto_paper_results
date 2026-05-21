@@ -38,8 +38,8 @@ plot_raw = False
 log_dir = "/home/emil/code/external/IsaacLab/multimodal_gym/paper_results"
 output_dir = "/home/emil/code/external/IsaacLab/multimodal_gym/results/plots"
 
-log_dir = "/home/elle/code/external/roto/paper_results"
-output_dir = "/home/elle/code/external/roto/paper_results/plots"
+log_dir = "/home/elle/code/external/roto_paper_results"
+output_dir = "/home/elle/code/external/roto_paper_results/plots"
 
 
 # agenst5
@@ -184,7 +184,7 @@ axes[0].set_ylabel(group_dict["y_label"], fontsize=fontsize)
 # axes[0].legend(loc="lower right", framealpha=1.0)
 # axes[0].legend(loc="upper right", framealpha=1.0)
 
-axes[group_dict["legend_idx"]].legend(loc=group_dict["legend_loc"], framealpha=1.0, fontsize=fontsize)
+axes[group_dict["legend_idx"]].legend(loc=group_dict["legend_loc"], framealpha=1.0, fontsize=fontsize-2)
 # axes[0].legend(loc="upper right")
 
 
